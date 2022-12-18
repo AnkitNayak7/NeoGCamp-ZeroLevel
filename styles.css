@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root{
-    --primary-color: #4db64d;
+    --primary-color: #104110;
     --dark-gray: #6B7280;
     --off-white: #F3F4F6;
 }
@@ -12,6 +12,15 @@ body{
 
 
 }
+
+.Blogs {
+
+}
+
+p {
+    text-align: center
+}
+
 
 hr {
     margin: 2rem 0rem;
@@ -40,12 +49,15 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+
 }
 
 .link-secondary{
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color)
+    border: 1px solid var(--primary-color);
+    margin: auto;
+    
 
 }
 
@@ -118,6 +130,8 @@ hr {
     text-align: center;
 }
 
+
+
 .ow {
     background-color: var(--off-white);
 }
@@ -142,3 +156,39 @@ hr {
 .footer ul{
     padding-inline-start: 0px
 }
+
+
+
+.skills, .projects, .Blogs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    gap: 10px;
+    border: 2px solid rgb(6, 6, 3);
+    padding: 20px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn1, .btn2 {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin: auto;
+    box-sizing: border-box;
+    text-decoration: None;
+    padding: 0.5rem 1rem;
+}
+
