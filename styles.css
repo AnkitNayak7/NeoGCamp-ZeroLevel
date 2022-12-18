@@ -23,11 +23,20 @@ hr {
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 
 .container-centered{
     max-width: 600px;
-    margin:auto
+    margin:auto;
+    
+}
+
+.container-left{
+    max-width: 50%;
+    margin:auto;
+    text-align:justify;
+    
 }
 
 /* Links */
@@ -61,6 +70,12 @@ hr {
 /* Lists */
 .list-non-bullet{
     list-style: none;
+}
+
+.list-bullet{
+    letter-spacing: -0.003em;
+    line-height: 25px;
+    /* margin-bottom: -0.46em; */
 }
 
 .list-item-inline{
@@ -130,6 +145,15 @@ list-item-inline-center{
     margin-bottom: 0px;
 
 }
+
+/* Blog */
+.hero .blog-img{
+    max-width: 50%;
+    display: block;
+    margin: auto;
+}
+
+
 
 /* Section */
 .section{
