@@ -9,8 +9,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: auto;
-
-
 }
 
 p {
@@ -119,10 +117,18 @@ list-item-inline-center{
 .hero .hero-heading{
     text-align: center;
     color: var(--dark-gray);
+    margin-bottom: 0px;
 }
 
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
+}
+
+.hero-subheading {
+    color: var(--dark-gray);
+    margin-top: 0px;
+    margin-bottom: 0px;
+
 }
 
 /* Section */
