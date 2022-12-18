@@ -75,6 +75,7 @@ hr {
 /* Lists */
 .list-non-bullet{
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 .list-bullet{
@@ -115,6 +116,7 @@ list-item-inline-center{
 
 .navigation .nav-pills{
     text-align: right;
+    margin: 0.6rem 1 rem;
 }
 
 .navigation .link-active{
