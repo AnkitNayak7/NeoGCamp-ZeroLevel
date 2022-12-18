@@ -13,10 +13,6 @@ body{
 
 }
 
-.Blogs {
-
-}
-
 p {
     text-align: center
 }
@@ -49,8 +45,11 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    text-align: left;
 
 }
+
+.center-link
 
 .link-secondary{
     color: var(--primary-color);
@@ -71,6 +70,11 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+list-item-inline-center{
+    display: inline;
+    padding: 0rem 0.5rem;
+    text-align: center;
+}
 
 /* Navigation */
 
@@ -159,17 +163,18 @@ hr {
 
 
 
-.skills, .projects, .Blogs {
+/* .skills, .projects, .Blogs {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 80%;
+    width: 50%;
     gap: 10px;
     border: 2px solid rgb(6, 6, 3);
-    padding: 20px;
-}
+    /* padding: 20px; */
+    /* padding: 2rem */
+} */
 
 .description {
     display: flex;
@@ -190,5 +195,25 @@ hr {
     box-sizing: border-box;
     text-decoration: None;
     padding: 0.5rem 1rem;
+    align-items: center;
 }
 
+
+.project-blocks{
+    text-align: center;
+    padding: 2rem 1rem;
+    color: white;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    /* border: 1px solid var(--primary-color); */
+    margin: auto;
+}
+
+
+.project-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+}
