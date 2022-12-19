@@ -25,6 +25,10 @@ hr {
     margin: 2rem 0rem;
 }
 
+small {
+    font-size: smaller;
+}
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
