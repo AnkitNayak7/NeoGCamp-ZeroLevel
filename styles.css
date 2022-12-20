@@ -164,6 +164,11 @@ list-item-inline-center{
     margin: auto;
 }
 
+.blog-subsection-img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
 
 
 /* Section */
